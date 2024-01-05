@@ -1,0 +1,38 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    
+}
+
+body {
+    cursor: url(''), auto;
+    background-color: #B62334;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    color: #B62334;
+    font-size: 12em;
+}
+
+.card>h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 10em;
+    color: #C78C42;
+}
+
+.card>h1 {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-size: 8em;
+    color: black;
+}
+
+
