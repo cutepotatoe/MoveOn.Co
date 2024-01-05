@@ -12,14 +12,18 @@ body {
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     text-align: center;
-    color: white;
+    color: #B62334;
 }
 
 h1 {
     color: #B62334;
-    font-size: 12em;
+    font-size: 6em;
+}
+
+p {
+    font-size: 1 em;
 }
 
 .card>h2 {
@@ -35,4 +39,41 @@ h1 {
     color: black;
 }
 
+.btn {
+    text-decoration: none;
+}
+
+.btn>h5 {
+    color: #C78C42;
+    text-align: left;
+    font-style: bold;
+
+}
+
+#velas>img {
+    width: 100%;
+}
+
+.font_h1 {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    color: #B62334;
+    font-style: bold;
+}
+
+.font_h2 {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-size: 3em;
+    color: #B62334;
+    font-style: bold;
+}
+
+.btn {
+    background-color: white;
+    color: #C78C42;
+    border-radius: 0%;
+    font-weight: 800;
+    font-size: 1.5em;
+}
 
