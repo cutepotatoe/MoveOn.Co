@@ -26,10 +26,15 @@ p {
     font-size: 1 em;
 }
 
+._pitalic{
+    font-style: italic;
+}
+
 ._logonav {
-    padding-left: 0.4em;
+    padding-left: 0.2em;
     padding-bottom: 0em;
-    margin-bottom: -1em;
+    margin-bottom: -0.9em;
+    font-size: 1.5em;
 }
 
 .card>h2 {
@@ -70,11 +75,20 @@ p {
     font-style: italic;
     color: #B62334;
     font-style: bold;
+    text-align: end;
+}
+.font_h1_norm {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    color: #B62334;
+    font-style: bold;
+    
 }
 
 .font_h2 {
     font-family: 'Alegreya', serif;
     font-style: italic;
+    text-align: end;
     font-size: 3em;
     color: #B62334;
     font-style: bold;
@@ -82,14 +96,36 @@ p {
 
 .btn {
     background-color: white;
+    
     color: #C78C42;
     border-radius: 0%;
     font-weight: 800;
     font-size: 1.5em;
 }
-
+/* villain zone */
 ._imgrayitos {
     width: 30%;
+}
+
+._imgvillain{
+    width: 100vw;
+}
+._containerstrokesvillain {
+    padding-top: 14em;
+
+}
+._containerstrokesvillain2{
+    margin-right: -6em;
+    margin-left: -6em;
+}
+._stroke1{
+    width: 170%;
+    margin-left: -6em;
+    
+}
+._villainpic {
+    margin-top: -6em;
+
 }
 
 /* marquee */
