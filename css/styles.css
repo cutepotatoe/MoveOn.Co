@@ -2,12 +2,13 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
 }
 
 body {
     cursor: url(''), auto;
     background-color: #B62334;
+    overflow-x: hidden;
+    
 }
 
 footer {
