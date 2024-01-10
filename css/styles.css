@@ -28,6 +28,7 @@ p {
 
 ._pitalic{
     font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 ._logonav {
@@ -53,8 +54,9 @@ p {
 
 .btn {
     text-decoration: none;
-    padding: 0em;
+    padding: 0.2em;
     margin: 0em;
+    text-align: end;
 }
 
 .btn>h5 {
