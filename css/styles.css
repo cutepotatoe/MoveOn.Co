@@ -2,7 +2,6 @@
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    color: black;
     
 }
 
@@ -21,6 +20,7 @@ h1 {
     color: #B62334;
     font-size: 6em;
 }
+
 
 p {
     font-size: 1 em;
@@ -41,12 +41,16 @@ p {
 
 .btn {
     text-decoration: none;
+    padding: 0em;
+    margin: 0em;
 }
 
 .btn>h5 {
-    color: #C78C42;
-    text-align: left;
-    font-style: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1em;
+    color: rgba(21, 21, 21, 1);
+    
 
 }
 
