@@ -176,3 +176,26 @@ p {
 ._zoomimg:hover {
     transform: scale(1.05);
 }
+
+
+/* SHOP */
+
+#manual {
+    width:108% ;
+}
+
+#textovert {
+   padding-right: 0.3em;
+   margin: 0px;
+   writing-mode: vertical-rl;
+   text-orientation: mixed;
+   font-size: 8em;
+   font-weight: 600; 
+}
+
+._font_fase {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-style: bold;
+    font-size: 7em;
+}
