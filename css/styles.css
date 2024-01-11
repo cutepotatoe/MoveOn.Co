@@ -30,6 +30,7 @@ p {
 ._pitalic{
     font-style: italic;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: white;
 }
 
 ._logonav {
@@ -212,15 +213,37 @@ p {
 /* MEDIA QUERIES */
 
 @media (max-width: 767.98px) {
-
+    .card>h1 {
+        font-size: 18vw;
+    }
+    .card>h2 {
+        font-size: 25vw;
+    }
+    .card {
+        padding: 0em;
+        
+    }
+    ._pitalic{
+        font-style: italic;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #B62334;
+    }
+    h1 {
+        font-size: 5em;
+    }
 
 }
-
 
 
 /* BREAKPOINT TAMAÑO MD */
 
 @media (min-width: 768px) {
+    .card>h1 {
+        font-size: 8vw;
+    }
+    .card>h2 {
+        font-size: 20vw;
+    }
     
-    
- }
+}
