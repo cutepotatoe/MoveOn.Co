@@ -207,3 +207,86 @@ p {
     font-style: bold;
     font-size: 7em;
 }
+
+.font_h1_libretas {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    color: #B62334;
+    font-style: bold;
+    text-align: center;
+}
+.font_h1_fases {
+    font-family: 'Alegreya', serif;
+    font-style: italic;
+    font-style: bold;
+    text-align: center;
+    padding-top: 0em;
+    font-size: 8vw;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 767.98px) {
+    .card>h1 {
+        font-size: 18vw;
+    }
+    .card>h2 {
+        font-size: 25vw;
+    }
+    .card {
+        padding: 0em;
+        
+    }
+    ._pitalic{
+        font-style: italic;
+        font-weight: 600;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        color: #B62334;
+    }
+    h1 {
+        font-size: 5em;
+    }
+    .font_h1 {
+        text-align: start;
+        padding-top: 2em;
+    }
+    .font_h1_libretas {
+        font-family: 'Alegreya', serif;
+        font-style: italic;
+        color: #B62334;
+        font-style: bold;
+        text-align: center;
+        font-size: 10em;
+    }
+    .font_h1_fases {
+        font-family: 'Alegreya', serif;
+        font-style: italic;
+        font-style: bold;
+        text-align: center;
+        padding-top: 0em;
+    }
+    .negoci {
+        padding-top: 0em;
+        font-size: 14vw;
+    }
+    
+}
+
+
+/* BREAKPOINT TAMAÑO MD */
+
+@media (min-width: 768px) {
+    .card>h1 {
+        font-size: 8vw;
+    }
+    .card>h2 {
+        font-size: 20vw;
+    }
+    ._libretas {
+        width: 10%; height: 10%;
+    }
+    #gatas {
+        width: 100%;
+    }
+    
+}
