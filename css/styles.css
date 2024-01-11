@@ -207,20 +207,3 @@ p {
     font-style: bold;
     font-size: 7em;
 }
-
-
-
-/* MEDIA QUERIES */
-
-@media (max-width: 767.98px) {
-
-
-}
-
-
-
-/* BREAKPOINT TAMAÑO MD */
-
-@media (min-width: 768px) {
-    
- }
